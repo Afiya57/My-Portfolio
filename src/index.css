@@ -1,0 +1,23 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+scroll-behavior: smooth;
+transition: background 0.3s, color 0.3s;
+}
+.light { background: #ffffff; color: #000000; }
+.dark { background: #0a0a0a; color: #ffffff; }
+.navbar { position: fixed; top:0; width:98%; background:#1a001a; display:flex; justify-content:space-between; align-items:center; padding:15px 20px; z-index:1000; border-bottom:1px solid #b65cff; }
+.navbar a { margin-left:15px; color:white; text-decoration:none; font-weight:bold; cursor:pointer; }
+.navbar a:hover { color:#b65cff; }
+.toggle-btn { background:#b65cff; padding:8px 20px; border-radius:5px; border:none; cursor:pointer; color:white; }
+.container { max-width:1200px; margin:0 auto; padding:100px 20px 50px 20px; }
+.section { padding:95px 0; }
+h1,h2,h3 { color:#b65cff; }
+h1 {border-left: 3px solid #b65cff; border-radius: 5px; padding: 10px;}
+.card { background:#111; padding:20px; border-radius:10px; border:1px solid #b65cff; margin-bottom:20px; }
+input, textarea { width:100%; padding:12px; margin:10px 0; border-radius:6px; border:1px solid #b65cff; background:#222; color:white; }
+button { background:#b65cff; color:white; border:none; padding:12px 22px; border-radius:6px; cursor:pointer; font-weight:bold; }
+button:hover { opacity:0.8; }
+.footer { background:#1a001a; color:white; text-align:center; padding:25px; border-top:1px solid #b65cff; margin-top:40px; }
+@media(max-width:768px){ .navbar div { display:none; } }
