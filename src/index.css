@@ -6,6 +6,7 @@ scroll-behavior: smooth;
 transition: background 0.3s, color 0.3s;
 }
 .light { background: #ffffff; color: #000000; }
+.card p { color: #ffffff;}
 .dark { background: #0a0a0a; color: #ffffff; }
 .navbar { position: fixed; top:0; width:98%; background:#1a001a; display:flex; justify-content:space-between; align-items:center; padding:15px 20px; z-index:1000; border-bottom:1px solid #b65cff; }
 .navbar a { margin-left:15px; color:white; text-decoration:none; font-weight:bold; cursor:pointer; }
